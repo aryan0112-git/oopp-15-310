@@ -9,7 +9,7 @@ public:
         value = 0;
         cout << "Default Constructor" << endl;
     }
-
+ 
     Demo(int v) {
         value = v;
         cout << "Parameterized Constructor" << endl;
