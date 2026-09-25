@@ -17,7 +17,7 @@ void callByAddress(int *x) {
 }
 
 int main() {
-    int a = 10, b = 10, c = 10;
+    int a = 10, b = 10, c = 20;
 
     callByValue(a);
     cout << "After Call by Value: " << a << endl;
