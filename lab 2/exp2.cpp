@@ -5,7 +5,7 @@ int main() {
     float salary = 50000;
     float *newSalary = &salary;
 
-    *newSalary = *newSalary + (*newSalary * 0.10);
+    *newSalary = *newSalary + (*newSalary * 0.20);
 
     cout << "Salary from old variable: " << salary << endl;
 
