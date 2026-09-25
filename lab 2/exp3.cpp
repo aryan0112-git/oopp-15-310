@@ -2,11 +2,11 @@
 using namespace std;
 
 void updateReference(float &salary) {
-    salary = salary + salary * 0.10;
+    salary = salary + salary * 0.20;
 }
 
 void updatePointer(float *salary) {
-    *salary = *salary + (*salary * 0.10);
+    *salary = *salary + (*salary * 0.20);
 }
 
 int main() {
